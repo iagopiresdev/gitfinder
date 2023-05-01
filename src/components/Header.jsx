@@ -5,11 +5,11 @@ import '../styles/Header.css'
 
 
 
-function Header() {
+function Header({ theme }) {
   return (
     <div className='header'>
       <h1>gitfinder</h1>
-      <div className='toggle'>
+      <div className='toggle' onClick={theme}>
         <h4>LIGHT</h4>
         <img src={sun} alt='sun' />
       </div>

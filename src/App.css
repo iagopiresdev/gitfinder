@@ -6,3 +6,13 @@
     transform: translate(-50%, -50%);
     width: 760px;
 }
+
+.dark{
+    background-color: var(--Main-bg-dm);
+    color: var(--Text-dm);
+}
+
+.light{
+    background-color: var(--Main-bg-lm);
+    color: var(--Text-lm);
+}

@@ -83,3 +83,8 @@
 .toc {
     padding-left: 0px;
 }
+
+.light {
+    background-color: var(--Main-bg-lm);
+    color: var(--Text-lm);
+}

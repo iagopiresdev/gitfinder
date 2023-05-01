@@ -6,7 +6,7 @@ import icontwitter from '../assets/icon-twitter.svg';
 import iconcompany from '../assets/icon-company.svg';
 import iconwebsite from '../assets/icon-website.svg';
 
-function Profile({ profileData }) {
+function Profile({ profileData }, { theme }) {
   if (!profileData) {
     return <div>Loading...</div>;
   }
