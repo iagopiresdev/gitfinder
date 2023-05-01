@@ -1,16 +1,21 @@
+import React, { useState } from 'react';
+import Searchbar from './components/Searchbar';
+import Profile from './components/Profile';
 import './App.css'
-import Header from './components/Header'
-import Searchbar from './components/Searchbar'
-import Profile from './components/Profile'
 
 function App() {
+  const [profileData, setProfileData] = useState(null);
+
+  const handleData = (data) => {
+    setProfileData(data);
+  };
 
   return (
-    <>
-      <Header />
-      <Searchbar />
-      <Profile />
-    </>
-  )
+    <div className='container'>
+      <Searchbar onProfileFetched={handleData} />
+      <Profile profileData={profileData} />
+    </div>
+  );
 }
-export default App
+
+export default App;

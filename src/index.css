@@ -37,7 +37,9 @@
 
 body {
   max-width: 760px;
-  height: 95vh;
+  width: 100%;
+  min-height: 95vh;
+  height: 900px;
   display: flex;
   align-items: center;
   justify-content: center;
