@@ -1,0 +1,84 @@
+
+
+:root {
+  --Main-bg-dm: #141D2F;
+  --Acc-dm: #1E2A47;
+  --Text-dm: #FFFFFF;
+
+  --Main-bg-lm: #F6F8FF;
+  --Acc-lm: #FEFEFE;
+  --Text-lm: #2B3442;
+
+  --Text-blue: #0079FF;
+
+  font-family: 'Space Mono', monospace;
+  
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+
+  background-color: var(--Main-bg-dm);
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 760px;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto; 
+}
+
+
+
+
+
+h1 {
+  font-style: bold;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+h2 {
+  font-style: bold;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0079FF;
+}
+
+h4 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.02rem;
+}
+
+
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  mix-blend-mode: normal;
+  line-height: 25px;
+}
+

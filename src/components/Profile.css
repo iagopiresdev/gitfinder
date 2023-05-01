@@ -1,0 +1,82 @@
+.profile {
+    margin-top: 40px;
+    width: 100%;
+    background-color: var(--Acc-dm);
+    border-radius: 15px;
+    padding: 45px;
+    display: flex;
+}
+
+.profile-picture {
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    margin-right: 20px; 
+}
+
+.profile-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.profile__name {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--Text-dm);
+}
+
+.profile-name-joined {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.at {
+    margin: 5px 0;
+}
+
+.bio {
+    margin: 20px 0px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    background-color: var(--Main-bg-dm);
+    padding: 15px 20px; 
+    border-radius: 10px;
+}
+
+.stats-container p {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+    margin-top: 35px;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+}
+
+.info-container p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-left: 10px;
+}
+
+.toc {
+    padding-left: 0px;
+}

@@ -1,0 +1,33 @@
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle:hover {
+    color: #4B6A9B;
+    cursor: pointer;
+}
+
+.toggle img {
+    filter: brightness(0) invert(1);
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    line-height: 19px;
+    margin-right: 10px;
+}
+
+
+
+
